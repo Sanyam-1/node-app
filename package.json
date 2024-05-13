@@ -1,0 +1,25 @@
+{
+  "name": "node_practise",
+  "version": "1.0.0",
+  "description": "practising node modules",
+  "main": "module.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon module.js"
+  },
+  "keywords": [
+    "node",
+    "npm"
+  ],
+  "author": "Sanyam",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "express": "^4.19.2",
+    "jquery": "^3.7.1",
+    "react": "^18.3.1"
+  }
+}
