@@ -2,7 +2,7 @@ const http = require('http');
 const sum = require('./app.js');
 
 http.createServer((req,res)=>{
-    if(req.url === '/'){
+    if(req.url === '/'){    
         res.end(`Node works fine with nodemon ${sum(4,5)}`);
     }
     if(req.url === '/home'){
